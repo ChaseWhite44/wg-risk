@@ -1,47 +1,28 @@
-## 1. Description
+# {Bus Factor}
 
-## 2. Use Cases
+Question: What is the number of team members that if run over by a bus would put the project at risk?
 
-## 3. Formula
+## Description
+Bus Factor shows how essential someone is to a software and if the software team is communicating effectively. A low bus factor represents a single point of failure and should be avoided, a higher bus factor is better. Any software that is critical to an organization should have a high bus factor.
 
-## 4. Sample Filter and Visualization
+## Objectives
+Somebody should want to measure this factor to ensure that the software will not come to a halt anytime soon incase of an unseen circumstance. If they do find that the factor is too low then they should do whatever they can to increase it since large numbers are preferable. 
 
-## 5. Sample Implementation
+## Implementation
+There are multiple things you can do the increase the bus factor of a software. You could ensure that all developers at least have access to all parts of code within a system. You could also do pair programming which allows knowledge of the code and how to software works to be shared among all members of a team.
 
-## 6. Known Implementations
+### Filters (optional)
+Include a Filter
 
-## 7. Test Cases (Examples)
+### Tools Providing the Metric (optional)
+Metric must be currently deployed/available, in contrast to a tool having the "potential" to provide the metric. Provide direct link to implementation/documentation, if applicable
 
-## 8. External References (Literature)
+### Data Collection Strategies (Optional)
+If there are several different ways to collect data for this metric, list them here.
+This may include expressing a metric in different ways.
 
-
-
-----
-```markdown
-# {Name of Metric}
-
-## 1. Description
-A description of what the metric is and what it captures.
-The first few sentences have to match the description in the [metrics list](../activity-metrics-list.md).
-
-## 2. Use Cases
-Provide examples of how the metric might inform different stakeholders through use cases.
-
-## 3. Formula
-A generic formula (in pseudo code) to generate the metric.
-
-## 4. Sample Filter and Visualization
-Include a Sample Filter and Visualization (screenshot) of the metric from any implementation.
-
-## 5. Sample Implementation
-An example implementation, for example a SQL or Elasticsearch query.
-
-## 6. Known Implementations
-Examples of where and how metric is used. (include links to dashboard or location where metric is visible or is talked about having been used).
-
-## 7. Test Cases (Examples)
-Sample inputs (including contexts) and expected outputs for this metric. Implementers can test their implementations against these test cases. For quantitative metrics, this could include a static repository with known metric results, or just inputs and output. For qualitative metrics, this may be more difficult.
-
-## 8. External References (Literature)
-Blog posts, websites, academic papers, or books that mention the metric.
+## References
+https://deviq.com/bus-factor/
+https://medium.com/tech-tajawal/the-bus-factor-6ea1a3ede6bd
+https://www.5whys.com/articles/the-bus-factor-why-your-best-developer-is-your-biggest-probl.html
 ```
